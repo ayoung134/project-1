@@ -1,20 +1,27 @@
 /* Place CSS styles here */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
      font-family: "Roboto Condensed", sans-serif;
-     background-color: #fff4e0
+     background-color: #fff4e0;
 }
 
-.Instructions {
+h1 {
      text-align: center;
-}
-
-h1, h2, h3 {
-     text-align: center
+     background-color: #fff4e0b6;
+     border-radius: 20px;
+     color:#313a0b
 }
 
 p{
      color: #313a0b;
-     margin: 50px;
+     margin: 20px;
+}
+
+h1, h2, h3 {
+     margin: 20px
 }
 
 .Ingredients{
@@ -22,25 +29,46 @@ p{
      border-radius: 20px;
     padding: 20px;
     margin: 20px;
+    background-color: #ebf48672;
+    color: #313a0b;
 }
 
-.top-background-image {
-    background-image: url(../img/whole_pie.jpeg);
-    height: 600px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.Instructions{
+     border: #5b6b14 4px solid;
+     border-radius: 20px;
+    margin: 20px;
+    background-color: #ebf48672;
+    color: #313a0b;
 }
 
 .top-background-image-with-content {
     background-image: url(../img/whole_pie.jpeg);
     padding-top: 200px;
     padding-bottom: 200px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.top-background-image-with-content h1 {
-    text-align: center;
+.back-to-top{
+     text-align: center;
+     color: #313a0b;
+}
+
+a:visited {
+     color: #5b6b14;
+}
+
+a:hover {
+     color:  #31390b;  
+}
+
+a:focus {
+    color: #ebf48672;
+    border-radius: 20px;
+}
+
+a {
+     margin: 20px;
 }
