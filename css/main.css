@@ -1,4 +1,46 @@
 /* Place CSS styles here */
 body {
      font-family: "Roboto Condensed", sans-serif;
+     background-color: #fff4e0
+}
+
+.Instructions {
+     text-align: center;
+}
+
+h1, h2, h3 {
+     text-align: center
+}
+
+p{
+     color: #313a0b;
+     margin: 50px;
+}
+
+.Ingredients{
+     border: #5b6b14 4px solid;
+     border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.top-background-image {
+    background-image: url(../img/whole_pie.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-background-image-with-content {
+    background-image: url(../img/whole_pie.jpeg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-background-image-with-content h1 {
+    text-align: center;
 }
